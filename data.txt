@@ -1,10 +1,10 @@
 Let's make a game!
-	name:Bunny Clicker
-	by:Orteil
-	desc:This is a simple idle game to showcase some of the basic functionalities of Idle Game Maker.<//>Make bunnies and shoot for the stars!
-	created:25/7/2017
-	updated:24/10/2017
-	version:1
+	name:SplatClicker
+	by:PawnShop75
+	desc:A clicker game based on Splatoon!<//>Get squids, octopi, and more!
+	created:10/7/2024
+	updated:10/7/2024
+	version:DEV
 
 Settings
 	background:stuff/meadow.jpg
@@ -18,12 +18,12 @@ Layout
 		
 Buttons
 	*bunnyButton
-		name:Make a bunny
-		desc:Click this little bunny to get more bunnies!
+		name:Make a squid
+		desc:Click this squid to get more squid!
 		on click:anim icon wobble
 		on click:yield 1 bunny
 		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		icon:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/dev/Assets/SquidClickIcon.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
