@@ -22,7 +22,7 @@ Buttons
 		desc:Click this squid to get more squids!
 		on click:anim icon wobble
 		on click:yield 1 squid
-// We'll use this later:		on click:if (have goldenTouch and chance(1%)) yield 1 octopus
+// on click:if (have goldenTouch and chance(1%)) yield 1 octopus
 		icon:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/dev/Assets/SquidClickIcon.png
 		no text
 		class:bigButton hasFlares
