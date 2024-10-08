@@ -1,7 +1,7 @@
 Let's make a game!
 	name:SplatClicker
 	by:PawnShop75
-	desc:A clicker game based on Splatoon!<//>Get squids, octopi, and more!
+	desc:A clicker game based on Splatoon! Get squids, octopi, and more!<//>Hosted on Github (So you can help us out too!): https://github.com/PawnShop75/SplatClicker
 	created:10/7/2024
 	updated:10/7/2024
 	version:DEV
