@@ -3,14 +3,14 @@ Let's make a game!
 	by:PawnShop75
 	desc:A clicker game based on Splatoon! Get squids, octopi, and more!<//>Hosted on Github (So you can help us out too!): https://github.com/PawnShop75/SplatClicker
 	created:10/7/2024
-	updated:All the time - This is the DEV editon
-	version:DEV
+	updated:10/8/2024
+	version:1-alpha
 
 Settings
-	background:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/dev/Assets/SpaceBG.jpg
+	background:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/stable/Assets/SpaceBG.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/dev/Assets/spritesheet48x48.png
+	spritesheet:icons, 48 by 48, https://raw.githubusercontent.com/PawnShop75/SplatClicker/stable/heads/dev/Assets/spritesheet48x48.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -22,7 +22,7 @@ Buttons
 		desc:Click this squid to get more squids!
 		on click:anim icon wobble
 		on click:yield 1 squid
-		icon:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/dev/Assets/SquidClickIcon.png
+		icon:https://raw.githubusercontent.com/PawnShop75/SplatClicker/refs/heads/stable/Assets/SquidClickIcon.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
