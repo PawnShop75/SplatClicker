@@ -69,12 +69,55 @@ Shinies
 Buildings
 	*TEMPLATE
 		on click:anim glow
-		
+
+			*burstbomb|burstbombs
+		name:Burst Bomb|Burst Bombs
+		desc:Bomb that explodes on impact.<//><b>Effect:</b><.>Produces 1 squid every 10 seconds.
+		icon:icons[3,0]
+		cost:15 squids
+		on tick:yield 0.1 squid
+		unlocked
+
+	*splatbomb|splatbombs
+		name:Splat Bomb|Rabbit hutches
+		desc:More powerful bombs that explode after a few seconds.<//><b>Effect:</b><.>Produces 1 squid every 2 seconds.
+		icon:icons[3,1]
+		cost:100 squids
+		on tick:yield 0.5 squids
+		req:100 squids:earned
+
+	*suctionbombs|suctionbombs
+		name:Suction Bombs|Suction Bombs
+		desc:A Splat Bomb that sticks to surfaces.<//><b>Effect:</b><.>Produces 5 squids per second.
+		icon:icons[3,2]
+		cost:600 squids
+		on tick:yield 5 squids
+		req:600 squids:earned
 Upgrades
 	*TEMPLATE
 		on click:anim glow
-	
+
+	*basicgear
+		name:Basic Gear
+		desc:Very simple, but somehow increases abilities.<//><b>Effect:</b><.>+1 squid/click
+		icon:icons[1,1]
+		cost:100 squids
+		passive:increase bunny yield of squidButton by 1
+		req:10 squids:earned
+
+	*weaponmaintenance
+		name:Weapon Maintenance
+		desc:Maintain weapons, making them work better.<//><b>Effect:</b><.>+1 bunny/click
+		icon:icons[1,2]
+		cost:200 bunnies
+		passive:increase bunny yield of bunnyButton by 1
+		req:50 bunnies:earned
 Achievements
 	*TEMPLATE
 		on click:anim glow
-		
+
+*squidAchiev1
+		name:Squid Beginnings
+		desc:Have <b>1</b> squid.
+		req:1 squid
+		icon:icons[0,0]
