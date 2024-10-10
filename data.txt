@@ -100,7 +100,7 @@ Upgrades
 	*basicgear
 		name:Basic Gear
 		desc:Very simple, but somehow increases abilities.<//><b>Effect:</b><.>+1 squid/click
-		icon:icons[1,2]
+		icon:icons[1,1]
 		cost:100 squids
 		passive:increase squid yield of squidButton by 1
 		req:10 squids:earned
@@ -108,7 +108,7 @@ Upgrades
 	*weaponmaintenance
 		name:Weapon Maintenance
 		desc:Maintain weapons, making them work better.<//><b>Effect:</b><.>+1 squid/click
-		icon:icons[2,2]
+		icon:icons[1,2]
 		cost:200 squids
 		passive:increase squid yield of squidButton by 1
 		req:50 squids:earned
