@@ -61,7 +61,7 @@ Shinies
 				yield $amount squids
 			else
 				$amount=1*$boost
-				toast The lucky octopus grants you<//><b>[$amount] octopus[s$amount]</b>!
+				toast The lucky octopus grants you<//><b>[$amount] octopus[s?$amount]</b>!
 				yield $amount octopus
 			end
 		end
